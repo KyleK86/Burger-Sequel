@@ -1,0 +1,53 @@
+body {
+    background-image: url(http://www.parkburger.com/wp-content/uploads/2013/12/parkburger2014_1-e1418779604540.jpg);
+    background-size: cover;
+    background-blend-mode: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.col {
+    padding: 20px;
+}
+
+#left {
+    padding-right: 10px;
+}
+
+#right {
+    padding-left: 10px;
+}
+
+h1,
+h2 {
+    color: Black;
+}
+
+h1 {
+    font-size: 56px;
+}
