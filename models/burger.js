@@ -1,5 +1,5 @@
 module.exports = function (sequelize, dataTypes) {
-    var Burger = sequelize.define('burgers', {
+    var Burger = sequelize.define('Burger', {
         // Here are the columns of the table
         id: {
             type: dataTypes.INTEGER,
@@ -10,7 +10,7 @@ module.exports = function (sequelize, dataTypes) {
         },
         devoured: {
             type: dataTypes.BOOLEAN,
-            defaultValue: false
+
         },
     })
     return Burger;
