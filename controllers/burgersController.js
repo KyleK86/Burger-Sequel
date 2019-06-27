@@ -8,7 +8,7 @@ module.exports = function (app) {
         console.log("request");
         // findAll returns all entries for a table when used with no options
         db.Burger.findAll({}).then(function (burger) {
-            // We have access to the burgers as an argument inside of the callback function
+            // We have access to the burgers as an argument inside of the callback functions
             let hbsObj = {
                 burgers: burger
             };
